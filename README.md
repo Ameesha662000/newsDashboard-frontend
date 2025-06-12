@@ -139,6 +139,17 @@ Password: admin
 
 ---
 
+## 🔒 User Login (Demo)
+
+Use the following credentials for the user panel:
+
+```
+Email: test@test.com
+Password: test
+```
+
+---
+
 ## 📤 Export Functionality
 
 - Exports payout summaries by author.  
