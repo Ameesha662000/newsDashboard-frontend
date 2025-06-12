@@ -49,13 +49,36 @@ A modern, offline-first, responsive dashboard built with **Next.js** that displa
 
 ## 🖼 Screenshots
 
-### 📍 Dashboard View
-![Dashboard Screenshot](https://your-image-link-here.png)
+<div align="center">
 
-### 📍 Admin Payout Table
-![Payout Table](https://your-image-link-here.png)
+<img src="Login-Page.png" alt="Login Page" />
 
-*(Replace the above links with actual uploaded image links or GitHub image paths)*
+**<div style="font-size:30px; margin-top: 5px;">Login Page</div>**
+
+---
+
+<img src="Dashboard.png" alt="Dashboard 1" style="margin-right:10px;" />
+
+**<div style="font-size:30px; margin-top: 5px;">Dashboard</div>**
+
+---
+
+<img src="Articles.png" alt="Articles" />
+
+**<div style="font-size:30px; margin-top: 5px;">Articles</div>**
+
+---
+
+<img src="Dashboard.png" alt="Analytics 1" style="margin-right:10px;" />
+
+
+**<div style="font-size:30px; margin-top: 5px;">Analytics</div>**
+
+---
+
+
+
+</div>
 
 ---
 
@@ -80,3 +103,47 @@ A modern, offline-first, responsive dashboard built with **Next.js** that displa
 ```bash
 git clone https://github.com/your-username/news-dashboard.git
 cd news-dashboard
+
+```
+## 2. Install Dependencies
+
+```bash
+npm install   # or yarn install
+```
+
+### 3. Environment Setup
+
+Create a `.env.local` file with:
+
+```env
+NEXT_PUBLIC_NEWS_API_KEY=your_newsapi_key
+NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY=your_sheets_api_key
+```
+
+### 4. Run Locally
+
+```bash
+npm run dev   # or yarn dev
+```
+
+---
+
+## 🔒 Admin Login (Demo)
+
+Use the following credentials for the admin panel:
+
+```
+Email: admin@admin.com
+Password: admin
+```
+
+---
+
+## 📤 Export Functionality
+
+- Exports payout summaries by author.  
+- Supported formats: **CSV**, **PDF**  
+
+## 📧 Contact
+
+[Ameesha Shukla](mailto:ameesha899@gmail.com)
